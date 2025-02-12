@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TechBlog Blog</title>
+  <link rel="stylesheet" href="Intermediate.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <div class="logo">
+        <img src="TechBlog.png" alt="Blog Logo">
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <button id="sidebar-toggle" class="toggle-btn">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <div class="container">
+      <!-- Blog Posts -->
+      <section class="blog-posts">
+        <article class="post">
+          <h2>Getting Started with React.js</h2>
+          <p>React.js is one of the most popular JavaScript libraries for building user interfaces. Whether you're a beginner or an experienced developer, React offers a powerful way to create dynamic and responsive web applications. In this post, we'll cover the basics of React, including components, state, and props.</p>
+          <a href="https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Frameworks_libraries/React_getting_started" class="btn">Read More</a>
+        </article>
+        <article class="post">
+          <h2>Top 5 CSS Frameworks for 2025</h2>
+          <p>CSS frameworks are essential tools for modern web development. They help developers create responsive and visually appealing websites quickly. In this post, we'll explore the top 5 CSS frameworks you should consider using in 2025.</p>
+          <a href="https://www.geeksforgeeks.org/top-10-css-frameworks-for-react/" class="btn">Read More</a>
+        </article>
+      </section>
+
+      <!-- Sidebar -->
+      <aside class="sidebar" id="sidebar">
+        <h3>Categories</h3>
+        <ul>
+          <li><a href="https://web.dev/blog">Web Development</a></li>
+          <li><a href="https://yesimadesigner.com/blog/">Design</a></li>
+          <li><a href="https://blog.codingblocks.com/">Programming</a></li>
+        </ul>
+        <h3>Recent Posts</h3>
+        <ul>
+          <li><a href="https://web.dev/blog">Web Development</a></li>
+          <li><a href="https://blog.codingblocks.com/">Programming</a></li>
+        </ul>
+      </aside>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 TechBlog. All rights reserved.</p>
+      <div class="social-links">
+        <a href="#"><i class="fab fa-github"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="Intermediate.js"></script>
+</body>
+</html>
