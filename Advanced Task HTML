@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Front-End Website</title>
+  <link rel="stylesheet" href="Advanced Task.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Hero Section -->
+    <section id="hero">
+      <h1>Welcome to Our BlogSpot</h1>
+      <p>We provide the best TechBlog for your needs.</p>
+      <button id="ctaButton">Learn More</button>
+    </section>
+
+    <!-- Blog Posts Section -->
+    <section id="blog-posts">
+      <h2>Latest Blog Posts</h2>
+      <div class="grid-container">
+        <article class="post">
+          <h3>Getting Started with React.js</h3>
+          <p>React.js is one of the most popular JavaScript libraries for building user interfaces. Learn the basics of React, including components, state, and props.</p>
+          <a href="https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Frameworks_libraries/React_getting_started" class="btn">Read More</a>
+        </article>
+        <article class="post">
+          <h3>Top 5 CSS Frameworks for 2025</h3>
+          <p>CSS frameworks are essential tools for modern web development. Explore the top 5 CSS frameworks you should consider using in 2025.</p>
+          <a href="https://www.geeksforgeeks.org/top-10-css-frameworks-for-react/" class="btn">Read More</a>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 BlogSpot. All rights reserved.</p>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="Advanced Task.js"></script>
+</body>
+</html>
